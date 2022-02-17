@@ -19,6 +19,10 @@ body {
     border-radius: .5rem;
 }
 
+.main-container{
+padding-top:5rem 0 ;
+}
+
 .heading{
     color: #e8e8e8;
 }
