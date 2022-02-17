@@ -83,6 +83,8 @@ body {
     position: relative;
     width:80%;
     margin: 3rem auto;
+    max-height:50vh;
+    overflow: scroll;
 
 }
 
