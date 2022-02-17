@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src = "app.js" defer></script>
+    <script src="https://kit.fontawesome.com/fb3c25e1ee.js" crossorigin="anonymous"></script>
+    <title>To - Do App</title>
+</head>
+<body>
+    <div class="container">
+
+    <!-- form to show all the todo -->
+    <form id="todo-form" action="javascript:void(0);" >
+
+        <!-- Heading -->
+        <div class="heading">
+            <h1>Add your task here</h1>
+        </div>
+
+        <!-- Input field for the to-do -->
+        <div class="form-group">
+            <input type="text" class="form-control" id="todo-id" placeholder="Write Something Here">
+            <button type="submit" id="todo-btn">Add</button>
+        </div>
+
+    </form>
+
+    <!-- section to show all the todo -->
+    <section class="todo-list-container">
+
+        <ul class="todoList" id="todo-list">
+          
+        </ul>
+
+    </section>
+
+    </div>
+
+</body>
+</html>
